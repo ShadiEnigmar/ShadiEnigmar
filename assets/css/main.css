@@ -72,6 +72,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Others*/
+
+.sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.bar-block .dropdown-hover,.bar-block .dropdown-click{width:100%}
+.bar-block .dropdown-hover .dropdown-content,.bar-block .dropdown-click .dropdown-content{min-width:100%}
+.bar-block .dropdown-hover .button,.bar-block .dropdown-click .button{width:100%;text-align:left;padding:8px 16px}
+
 /* Basic */
 
 	html {
