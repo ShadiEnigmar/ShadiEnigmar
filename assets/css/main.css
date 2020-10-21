@@ -1540,10 +1540,48 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 			margin-bottom: 0.25em;
 		}
 
-		.box.style2 .image {
+		.box.style2 .image2 {
 			position: relative;
 			left: 2em;
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+
+		/* Image2 */
+
+	.image2 {
+		display: inline-block;
+		position: relative;
+	}
+
+		.image2 img {
+			display: block;
+			width: 100%;
+		}
+
+		.image2.fit {
+			display: block;
+			width: 100%;
+		}
+
+		.image2.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		.image2.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image2.centered {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image2.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
