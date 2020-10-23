@@ -15,20 +15,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- Sidebar/menu -->
 <nav class="sidebar bar-block white animate-left text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="padding-64 center"><b>JARED<br>MASON</b></h3>
-  <a href="javascript:void(0)" onclick="w3_close()" class="bar-item button padding hide-large">CLOSE</a>
-  <a href="#" onclick="w3_close()" class="bar-item button">PORTFOLIO</a> 
-  <a href="#about" onclick="w3_close()" class="bar-item button">ABOUT ME</a> 
-  <a href="#contact" onclick="w3_close()" class="bar-item button">CONTACT</a>
+  <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
+  <a href="#" onclick="close()" class="bar-item button">PORTFOLIO</a> 
+  <a href="#about" onclick="close()" class="bar-item button">ABOUT ME</a> 
+  <a href="#contact" onclick="close()" class="bar-item button">CONTACT</a>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="container top hide-large white xlarge padding-16">
   <span class="left padding">JARED MASON</span>
-  <a href="javascript:void(0)" class="right button white" onclick="w3_open()">☰</a>
+  <a href="javascript:void(0)" class="right button white" onclick="open()">☰</a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="overlay hide-large animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="overlay hide-large animate-opacity" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
 <div class="main" style="margin-left:300px">
@@ -314,12 +314,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <script>
 // Script to open and close sidebar
-function w3_open() {
+function open() {
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("myOverlay").style.display = "block";
 }
  
-function w3_close() {
+function close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
