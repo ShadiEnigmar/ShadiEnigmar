@@ -240,6 +240,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	.container2 {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
+		max-height: calc(100% - 50px);
 		width: 1200px;
 	}
 
