@@ -1,5 +1,5 @@
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position: relative; left: 50%; top: 50%; transform: translate(0%, 50%);}
+.webgl-content {position: relative; left: 0%; top: 0%; transform: translate(0%, 0%);}
 
 .webgl-content .logo, .progress {position: relative; left: 50%; top: 50%;}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
