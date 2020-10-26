@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Jared Mason's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.third img:hover{opacity: 1}
+</style>
+<body class="light-grey content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="sidebar bar-block white animate-left text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="padding-64 center"><b>JARED<br>MASON</b></h3>
+  <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
+  <a href="/" onclick="close()" class="bar-item button">HOME</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="container top hide-large white xlarge padding-16">
+  <span class="left padding">JARED MASON</span>
+  <a href="javascript:void(0)" class="right button white" onclick="open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="overlay hide-large animate-opacity" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="hide-large" style="margin-top:83px"></div>
+
+
+  <br /><br />
+	
+		<div class="container2">
+		<div class="content justify" style="max-width:800px">
+			
+			<h3>Bird Call</h3>
+						<head>
+						<meta charset="utf-8">
+						<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+						<title>Unity WebGL Player | Dungeon Delver (PDF Review)</title>
+						<script src="Build/UnityLoader.js"></script>
+						<script>
+						  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/New folder.json");
+						</script>
+					  </head>
+					  <body>
+						<div id="gameContainer" style="width: 1280px; height: 720px; margin: auto"></div>
+					  </body>
+			
+			
+			<p>Animation of a snail. <br />
+			Created in Adobe Animate.</p>
+		</div>
+		</div>
+	
+  <!-- Portfolio -->
+  <!--
+			<article id="portfolio" class="wrapper style3">
+				<div class="container2">
+					<header>
+						<h2>3D artwork</h2>
+						<p>Projects mostly created in Blender</p>
+					</header>
+					<div class="row2">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image2 featured"><img src="images/journeywest.jpg" alt="A 3D animation about a bulls journey west" /></a>
+								<h3><a href="#">Journey West</a></h3>
+								<p>A 3D animation about a bulls journey west</p>
+							</article>
+						</div>
+						
+					</div>
+
+
+					
+				</div>
+			</article>
+			
+			
+			-->
+
+
+  <!-- Photo grid -->
+  <!--
+  <div class="row">
+  <h4><b>3D artwork</b></h4>
+    <div class="third">
+      <img src="images/journeywest.jpg" style="width:100%" onclick="window.open(this.src)" alt="A 3D animation about a bulls journey west" role="button" tabIndex="0">
+  </div>
+  -->
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="modal black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="button black xlarge display-topright">×</span>
+    <div class="modal-content animate-zoom center transparent padding-64">
+      <img id="img01" class="image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="container dark-grey center text-light-grey padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <img src="/w3images/avatar_hat.jpg" alt="Me" class="image padding-32" width="600" height="650">
+    <div class="content justify" style="max-width:800px">
+      <h4>My Name</h4>
+      <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>mail: example@example.com</p>
+      <p>tel: 5353 35531</p>
+      <hr class="opacity">
+      <h4 class="padding-16">Technical Skills</h4>
+      <p class="wide">Photography</p>
+      <div class="white">
+        <div class="container padding-small center grey" style="width:95%">95%</div>
+      </div>
+      <p class="wide">Web Design</p>
+      <div class="white">
+        <div class="container padding-small center grey" style="width:85%">85%</div>
+      </div>
+      <p class="wide">Photoshop</p>
+      <div class="white">
+        <div class="container padding-small center grey" style="width:80%">80%</div>
+      </div>
+      <p><button class="button light-grey padding-large margin-top margin-bottom">Download Resume</button></p>
+      <hr class="opacity">
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="container light-grey padding-32 padding-large" id="contact">
+    <div class="content" style="max-width:800px">
+      <h4 class="center"><b>Contact Me</b></h4>
+      <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="section">
+          <label>Name</label>
+          <input class="input border" type="text" name="Name" required>
+        </div>
+        <div class="section">
+          <label>Email</label>
+          <input class="input border" type="text" name="Email" required>
+        </div>
+        <div class="section">
+          <label>Message</label>
+          <input class="input border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="button block black margin-bottom">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container padding-32 grey">  
+    <div class="row-padding">
+      <div class="third">
+        <h3>INFO</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>      
+      </div>
+    
+      <div class="third">
+        <h3>BLOG POSTS</h3>
+        <ul class="ul">
+          <li class="padding-16 hover-black">
+            <img src="/w3images/workshop.jpg" class="left margin-right" style="width:50px">
+            <span class="large">Lorem</span><br>
+            <span>Sed mattis nunc</span>
+          </li>
+          <li class="padding-16 hover-black">
+            <img src="/w3images/gondol.jpg" class="left margin-right" style="width:50px">
+            <span class="large">Ipsum</span><br>
+            <span>Praes tinci sed</span>
+          </li> 
+        </ul>
+      </div>
+
+      <div class="third">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="tag black margin-bottom">Travel</span> <span class="tag dark-grey small margin-bottom">New York</span> <span class="tag dark-grey small margin-bottom">London</span>
+          <span class="tag dark-grey small margin-bottom">IKEA</span> <span class="tag dark-grey small margin-bottom">NORWAY</span> <span class="tag dark-grey small margin-bottom">DIY</span>
+          <span class="tag dark-grey small margin-bottom">Ideas</span> <span class="tag dark-grey small margin-bottom">Baby</span> <span class="tag dark-grey small margin-bottom">Family</span>
+          <span class="tag dark-grey small margin-bottom">News</span> <span class="tag dark-grey small margin-bottom">Clothing</span> <span class="tag dark-grey small margin-bottom">Shopping</span>
+          <span class="tag dark-grey small margin-bottom">Sports</span> <span class="tag dark-grey small margin-bottom">Games</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <article id="contact" class="wrapper style4">
+	<div class="container medium">
+		<div class="row">
+					<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+					</div>
+		</div>
+	</div>
+	</article>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
