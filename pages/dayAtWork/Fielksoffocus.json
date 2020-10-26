@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Mission Demolition",
+"dataUrl": "Fielksoffocus.data.unityweb",
+"asmCodeUrl": "Fielksoffocus.asm.code.unityweb",
+"asmMemoryUrl": "Fielksoffocus.asm.memory.unityweb",
+"asmFrameworkUrl": "Fielksoffocus.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
