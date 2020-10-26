@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Dungeon Delver (PDF Review)",
+"dataUrl": "Bird Call.data.unityweb",
+"asmCodeUrl": "Bird Call.asm.code.unityweb",
+"asmMemoryUrl": "Bird Call.asm.memory.unityweb",
+"asmFrameworkUrl": "Bird Call.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
