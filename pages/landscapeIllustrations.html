@@ -16,7 +16,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <nav class="sidebar bar-block white text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="padding-64 center"><b>JARED<br>MASON</b></h3>
   <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
-  <a href="/" onclick="close()" class="bar-item button">PORTFOLIO</a>
+  <a href="/" onclick="closemenu()" class="bar-item button">PORTFOLIO</a>
   <a href="/#3Dart" onclick="closemenu()" style="font-size:13px" class="bar-item button">3D ART</a>
    <a href="/#games" onclick="closemenu()" style="font-size:13px;" class="bar-item button">GAMES</a>
    <a href="/#2Dvideo" onclick="closemenu()" style="font-size:13px" class="bar-item button">2D VIDEOS</a>
@@ -27,12 +27,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top menu on small screens -->
 <header class="container top hide-large white xlarge padding-16">
-  <span class="left padding">JARED MASON</span>
-  <a href="javascript:void(0)" class="right button white" onclick="open()">☰</a>
+  <span class="leftmenu padding">JARED MASON</span>
+  <a href="javascript:void(0)" class="rightmenu button white" onclick="openmenu()">☰</a>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="overlay hide-large animate-opacity" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="overlay hide-large animate-opacity" onclick="closemenu()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
 <div class="main" style="margin-left:300px">
@@ -74,12 +74,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <script>
 // Script to open and close sidebar
-function open() {
+function openmenu() {
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("myOverlay").style.display = "block";
 }
  
-function close() {
+function closemenu() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
