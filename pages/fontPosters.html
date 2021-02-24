@@ -1,47 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Font Posters | Jared Mason</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../assets/css/main.css">
-
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
-.third img:hover{opacity: 1}
-</style>
-<body class="light-grey content" style="max-width:1600px">
-
-<!-- Sidebar/menu -->
-<nav class="sidebar bar-block white text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="padding-64 center"><b>JARED<br>MASON</b></h3>
-  <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
-  <a href="/" onclick="closemenu()" class="bar-item button">PORTFOLIO</a>
-  <a href="/#3Dart" onclick="closemenu()" style="font-size:13px" class="bar-item button">3D ART</a>
-   <a href="/#games" onclick="closemenu()" style="font-size:13px;" class="bar-item button">GAMES</a>
-   <a href="/#2Dvideo" onclick="closemenu()" style="font-size:13px" class="bar-item button">2D VIDEOS</a>
-   <a href="/#2Dart" onclick="closemenu()" style="font-size:13px" class="bar-item button">2D ART</a>
-  
-  <a href="about.html" onclick="closemenu()" class="bar-item button">ABOUT</a> 
-</nav>
-
-<!-- Top menu on small screens -->
-<header class="container top hide-large white xlarge padding-16">
-  <span class="leftmenu padding">JARED MASON</span>
-  <a href="javascript:void(0)" class="rightmenu button white" onclick="openmenu()">☰</a>
-</header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="overlay hide-large animate-opacity" onclick="closemenu()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="main" style="margin-left:300px">
-
-  <!-- Push down content on small screens --> 
-  <div class="hide-large" style="margin-top:83px"></div>
-
-
-   
+---
+layout: post
+title: Font Posters | Jared Mason
+---
   
 
 		<div class="container2">
@@ -74,33 +34,3 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 		</div>
 		
 	</div>
-
-
-<!-- End page content -->
-</div>
-
-<script>
-// Script to open and close sidebar
-function openmenu() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function closemenu() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-</script>
-
-
-</body>
-</html>
