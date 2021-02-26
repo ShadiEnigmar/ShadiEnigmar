@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-color: rgba(92, 225, 219, 0.69);
+}
+p {
+  font-family: Verdana, AkzidenzGrotesk, Univers, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: Bold;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #5C3B3C
+}
+.sign {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: -1px 1px 0 rgba(51,40,28,1.00), 1px 1px 0 rgba(51,40,28,1.00), 1px -1px 0 rgba(51,40,28,1.00), -1px -1px 0 rgba(51,40,28,1.00);
+}
+.q {
+font-family: 'Passero One';
+  color: #525252;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: -1px 1px 0 rgba(22,22,22,1.00), 1px 1px 0 rgba(22,22,22,1.00), 1px -1px 0 rgba(22,22,22,1.00), -1px -1px 0 rgba(22,22,22,1.00);
+}
+.a {
+  font-family: 'Passero One';
+  color: #525252;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 rgba(22,22,22,1.00), 1px 1px 0 rgba(22,22,22,1.00), 1px -1px 0 rgba(22,22,22,1.00), -1px -1px 0 rgba(22,22,22,1.00);
+}
+.ac {
+  font-family: 'Passero One';
+  color: #525252;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: -1px 1px 0 rgba(22,22,22,1.00), 1px 1px 0 rgba(22,22,22,1.00), 1px -1px 0 rgba(22,22,22,1.00), -1px -1px 0 rgba(22,22,22,1.00);
+}
+#Main {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: auto;
+  padding: 10px;
+  z-index: 30;
+}
+#Dirt {
+  width: 2000px;
+  height: 400px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-image: url("../Images/DirtPath.png");
+  background-size: 100%;
+  z-index: -5;
+}
+#HLeft {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  bottom: 0%;
+  right: 72.9%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-image: url("../images/HedgeLeftPath.png");
+  background-size: 100%;
+  z-index: -1;
+}
+#HRight {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  bottom: 0%;
+  left: 72.9%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-image: url("../images/HedgeRightPath.png");
+  background-size: 100%;
+  z-index: -1;
+}
+#LeftArrow {
+  width: 13%;
+  height: 105px;
+  position: absolute;
+  bottom: 205px;
+  left: 28%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-image: url("../images/Left Arrow.png");
+  background-size: 100%;
+  z-index: 2;
+}
+#RightArrow {
+  width: 13%;
+  height: 105px;
+  position: absolute;
+  bottom: 205px;
+  right: 28%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-image: url("../images/Right Arrow.png");
+  background-size: 100%;
+  z-index: 2;
+}
+#ForwardArrow {
+  width: 14%;
+  height: 320px;
+  position: absolute;
+  bottom: 80px;
+  right: 43%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 3;
+  background-image: url("../images/Forward Arrow.png");
+  background-size: 100%;
+}
+#BackArrow {
+  width: 16%;
+  height: 180px;
+  position: absolute;
+  bottom: 30px;
+  right: 42%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("../images/Back Arrow.png");
+  background-size: 100%;
+  z-index: 5;
+}
+#Sign {
+    width: 15%;
+    height: 400px;
+    position: absolute;
+	bottom: 190px;
+    right: 42.5%;
+    overflow: auto;
+    background-repeat: no-repeat;
+	text-align:center; 
+	background-image: url("../Images/SignPost.png");
+	background-size: 100% 100%;
+	z-index: -1;
+}

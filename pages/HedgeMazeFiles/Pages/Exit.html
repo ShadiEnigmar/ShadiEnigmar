@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exit</title>
+<link href="sample.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	#FHLeft {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    bottom: 12px;
+    right: 62.5%;
+    overflow: auto;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-image: url("../images/HedgeLeft.png");
+    background-size: 100% ;
+		z-index: -1;
+}
+	#FHRight {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    bottom: 12px;
+    left: 62.5%;
+    overflow: auto;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-image: url("../images/HedgeRight.png");
+    background-size: 100% ;
+		z-index: -1;
+}
+	#BackHedge {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+	bottom: 230px;
+    right: 0px;
+    overflow: auto;
+    background-repeat: no-repeat;
+	text-align:center; 
+	z-index: -2;
+	}
+	
+	#Entrance {
+    width: 100%;
+    height: 849px;
+    position: absolute;
+	bottom: 80px;
+	right:0px;
+    overflow: auto;
+    background-repeat: no-repeat;
+	text-align:center; 
+	z-index: 3;
+	}
+	#ForwardArrow {
+    width: 20%;
+    height: 200px;
+    position: absolute;
+	bottom: 80px;
+	right:40%;
+    overflow: auto;
+    background-repeat: no-repeat;
+	text-align:center; 
+	z-index: 5;
+		background-image: url("../images/Forward Arrow.png");
+    background-size: 100% ;
+	}
+	#Video {
+    width: 20%;
+    height: 500px;
+    position: absolute;
+	bottom: 200px;
+    right: 40%;
+    overflow: auto;
+    background-repeat: no-repeat;
+	text-align:center; 
+	background-image: url("../Images/SignPost.png");
+	background-size: 100% 100%;
+	z-index: 5;
+}
+#ReloadArrow {
+  width: 16%;
+  height: 300px;
+  position: absolute;
+  bottom: 30px;
+  right: 42%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("../images/Reload Arrow.png");
+  background-size: 100%;
+  z-index: 5;
+	}
+	
+#Clouds { 
+	width:550px;
+	height:300px; 
+	position:absolute;
+	bottom:650px; 
+	right:3%;
+	overflow:auto;
+	padding:10px;
+	z-index: -2;
+		
+			}
+	
+	
+</style>
+	
+</head>
+
+<body>
+	
+	<div id = "Clouds">
+	<svg width="300" height="210">
+        <defs>
+            <clippath id="user-space">
+                <circle cx="80" cy="125" r="50"/>
+				<circle cx="90" cy="90" r="50"/>
+				<circle cx="110" cy="130" r="50"/>
+				<circle cx="110" cy="75" r="50"/>
+				<circle cx="180" cy="85" r="50"/>
+				<circle cx="190" cy="125" r="50"/>
+            </clippath>
+			
+			<lineargradient id="gradient">  
+     <stop offset="0" stop-color="rgba(130,111,111,1.00)" stop-opacity="1" />  
+     <stop offset="1" stop-color="rgba(110,110,110,1)" stop-opacity="1" />  
+   </lineargradient>
+   <mask id="gradient-mask">  
+     <rect x="0" y="0" width="300" height="210" fill="url(#gradient)"  />  
+   </mask>
+        </defs>
+
+        <image height="100%"  xlink:href="../Images/Cloud.png" clip-path="url(#user-space)" mask="url(#gradient-mask)"/>
+    </svg></div>	
+
+
+	<div id="Dirt"></div>
+	<div id="FHLeft"></div>
+	<div id="FHRight"></div>
+	
+	
+	<div id="Entrance">
+		<img src="../Images/Sign.png" alt="Sign" style="width:48%; height:260px;">
+	</div>
+	
+	<div id="Video">
+		<br><br><br><br>
+	<iframe width="80%" height="40%" src="https://youtube.com/embed/1Bix44C1EzY?autoplay=1" frameborder="0" allow="autoplay"></iframe>
+	</div>
+	
+	<a href = "../index.html"><div id="ReloadArrow"></div></a>
+
+</body>
+</html>
