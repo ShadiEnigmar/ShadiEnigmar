@@ -56,7 +56,7 @@ font-family: 'Passero One';
   overflow: auto;
   background-repeat: no-repeat;
   padding: 10px;
-  background-image: url("../Images/DirtPath.png");
+  background-image: url("../images/DirtPath.png");
   background-size: 100%;
   z-index: -5;
 }
@@ -147,7 +147,7 @@ font-family: 'Passero One';
     overflow: auto;
     background-repeat: no-repeat;
 	text-align:center; 
-	background-image: url("../Images/SignPost.png");
+	background-image: url("../images/SignPost.png");
 	background-size: 100% 100%;
 	z-index: -1;
 }
