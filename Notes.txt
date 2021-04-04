@@ -1,3 +1,5 @@
+cd C:\Users\murph\Documents\GitHub\jaredmason
+
 bundle exec jekyll serve --watch
 
 localhost:4000
