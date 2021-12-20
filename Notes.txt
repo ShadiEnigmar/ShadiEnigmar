@@ -1,4 +1,4 @@
-cd C:\Users\murph\Documents\GitHub\jaredmason
+cd C:\GitHubRepos\jared-mason.github.io
 
 bundle exec jekyll serve --watch
 
