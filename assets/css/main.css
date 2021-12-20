@@ -1830,12 +1830,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen {
 
 		/* Basic */
 
 			body {
 				font-size: 11pt;
+				padding-top: 60px;
 			}
 
 			input, textarea, select {
@@ -1865,6 +1866,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		/* Basic */
+
+			body {
+				padding-top: 0px;
+			}
 
 		/* Articles */
 
