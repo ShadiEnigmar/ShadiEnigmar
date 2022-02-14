@@ -1,155 +1,82 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<title>Jared Mason's Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../assets/css/main.css">
-
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
-.third img:hover{opacity: 1}
-</style>
-<body class="light-grey content" style="max-width:1600px">
-
-<!-- Sidebar/menu -->
-<nav class="sidebar bar-block white  text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="padding-64 center"><b>JARED<br>MASON</b></h3>
-  <a href="javascript:void(0)" onclick="closemenu()" class="bar-item button padding hide-large">CLOSE</a>
-  
-
-  <a href="/" onclick="closemenu()" class="bar-item button">PORTFOLIO</a>
-  <a href="/#3Dart" onclick="closemenu()" style="font-size:13px" class="bar-item button">3D ART</a>
-   <a href="/#games" onclick="closemenu()" style="font-size:13px;" class="bar-item button">GAMES</a>
-   <a href="/#2Dvideo" onclick="closemenu()" style="font-size:13px" class="bar-item button">2D VIDEOS</a>
-   <a href="/#2Dart" onclick="closemenu()" style="font-size:13px" class="bar-item button">2D ART</a>
-  
-  <a href="" onclick="closemenu()" class="bar-item button">ABOUT</a> 
-</nav>
-
-<!-- Top menu on small screens -->
-<header class="container top hide-large white xlarge padding-16">
-  <span class="leftmenu padding">JARED MASON</span>
-  <a href="javascript:void(0)" class="rightmenu button white" onclick="openmenu()">☰</a>
-</header>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="overlay hide-large animate-opacity" onclick="closemenu()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="main" style="margin-left:300px">
-
-  <!-- Push down content on small screens --> 
-  <div class="hide-large" style="margin-top:83px"></div>
+---
+layout: post
+title: About Page | Jared Mason
+---
 
 
-  
-	
-		<div class="container2">
-		<div class="content justify" style="max-width:800px">
-			<br /><br />
-			
-		  
-			<h3>About</h3>
-	
-			<img src="../images/profile.jpg" alt="Me" class="image2 featured" style="position:relative;left:0%;width:40%" onclick="onClick(this)">
+
+<div class="container2">
+    <div class="content justify" style="max-width:800px">
+        <br /><br />
+      
+        <h3>About</h3>
+
+        <img src="../images/profile.jpg" alt="Me" class="image2 featured" style="position:relative;left:0%;width:40%" onclick="onClick(this)">
+
+        <p>
+            I am an undergraduate at The Pennsylvania State University who is pursuing a degree in Digital Arts and Media Design.
+            With my work, I am interested in creating interactive experiences that others can relate to.
+            I believe that interactive media is the most effective way to convey ideas or emotions to an audience.
+            <br>
+            My current work focusses on game design, vector artwork, or 3D modeling.
+            I often incorporate multiple of these aspects into one project in order to create unique and interesting experiences.
+            My artwork often focuses on ideals I believe to be important.
+            While creating my artwork, I try to include ideals that are important to me.
+            Common themes in my work include environmentalism and the unrewarding nature of the standard work life.
+            <br>
+            After college, I intend to follow a career as a digital artist for the video game industry.
+            In my spare time, I play a wide variety of video games, watch comedy’s, or listen to music.
+        </p>
+        <br>
+        <form method="get" action="Resume.pdf">
+            <button type="submit">Resume</button>
+        </form>
     
-            <p>
-                I am an undergraduate at The Pennsylvania State University who is pursuing a degree in Digital Arts and Media Design.
-                With my work, I am interested in creating interactive experiences that others can relate to.
-                I believe that interactive media is the most effective way to convey ideas or emotions to an audience.
-                <br>
-                My current work focusses on game design, vector artwork, or 3D modeling.
-                I often incorporate multiple of these aspects into one project in order to create unique and interesting experiences.
-                My artwork often focuses on ideals I believe to be important.
-                While creating my artwork, I try to include ideals that are important to me.
-                Common themes in my work include environmentalism and the unrewarding nature of the standard work life.
-                <br>
-                After college, I intend to follow a career as a digital artist for the video game industry.
-                In my spare time, I play a wide variety of video games, watch comedy’s, or listen to music.
-            </p>
-			<br>
-			<form method="get" action="Resume.pdf">
-				<button type="submit">Resume</button>
-			</form>
-		
-			<br><br>
-			<h3>Contact Information:</h3>
+        <br><br>
+        <h3>Contact Information:</h3>
 
-			<p>Email: jxm874@psu.edu<br/>
-				Phone Number: 814-505-9606</p>
-			<br><br>
-		</div>
-		</div>
-
-
-	  <!-- Footer-->
-	  
-  <footer class="container padding-32 grey">  
-    <div class="row-padding">
-      <div class="container medium">
-		<div class="row">
-					<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<li><a href="https://vimeo.com/jaredmason" class="icon brands fa-vimeo"><span class="label">Vimeo</span></a></li>
-								<li><a href="https://github.com/jared-mason" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.instagram.com/jared.mason7/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.linkedin.com/in/jared-mason-/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<!--
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span class="label">Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span class="label">Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span class="label">Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span class="label">Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span class="label">Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								-->
-							</ul>
-							<hr />
-					</div>
-		</div>
-	</div>
+        <p>Email: jxm874@psu.edu<br/>
+            Phone Number: 814-505-9606</p>
+        <br><br>
     </div>
-  </footer>
+    </div>
 
 
-
-
-<!-- End page content -->
+  <!-- Footer-->
+  
+<footer class="container padding-32 grey">  
+<div class="row-padding">
+  <div class="container medium">
+    <div class="row">
+                <div class="col-12">
+                        <hr />
+                        <h3>Find me on ...</h3>
+                        <ul class="social">
+                            <li><a href="https://vimeo.com/jaredmason" class="icon brands fa-vimeo"><span class="label">Vimeo</span></a></li>
+                            <li><a href="https://github.com/jared-mason" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                            <li><a href="https://www.instagram.com/jared.mason7/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/jared-mason-/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            <!--
+                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                            <li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+                            <li><a href="#" class="icon brands fa-foursquare"><span class="label">Foursquare</span></a></li>
+                            <li><a href="#" class="icon brands fa-skype"><span class="label">Skype</span></a></li>
+                            <li><a href="#" class="icon brands fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+                            <li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+                            <li><a href="#" class="icon brands fa-blogger"><span class="label">Blogger</span></a></li>
+                            <li><a href="#" class="icon brands fa-flickr"><span class="label">Flickr</span></a></li>
+                            <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+                            <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            -->
+                        </ul>
+                        <hr />
+                </div>
+    </div>
 </div>
+</div>
+</footer>
+	
 
-
-
-
-<script>
-// Script to open and close sidebar
-function openmenu() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function closemenu() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-</script>
-
-
-</body>
-</html>
+	
