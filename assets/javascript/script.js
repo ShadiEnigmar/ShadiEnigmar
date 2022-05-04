@@ -98,9 +98,9 @@ const thesisPrototype = `
           <button type="submit">Design Document</button>
       </form>
       <br/><br/>
-      <form method="get" action="https://shadienigmar.itch.io/an-escape">
-          <button type="submit">Download Link</button>
-      </form>
+
+      <iframe frameborder="0" src="https://itch.io/embed/1303138?linkback=true&amp;border_width=0&amp;bg_color=222222&amp;fg_color=d6d6d6&amp;link_color=E4CF6B&amp;border_color=333333" width="550" height="165"><a href="https://shadienigmar.itch.io/an-escape">An Escape by ShadiEnigmar</a></iframe>
+
       <br><br>
 
       <p>2021, Unity and Adobe Illustrator</p>
