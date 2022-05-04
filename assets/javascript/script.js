@@ -78,29 +78,31 @@ const thesisPrototype = `
       <div class="content justify" >
       <br /><br />
 
-      <h3>Senior Thesis Game</h3>
-      <img src="images/thesisPrototype.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Thesis Escape Prototype"><br />
+      <h3>An Escape</h3>
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/703152349?color=ffffff&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       <p>
-      As this project is a work in progress, it is not yet fully documented. However, assets can be viewed in the <a style="text-decoration: underline" href="https://drive.google.com/drive/folders/1wGzui3qwVqoBn5vw0fMOmNJa2UnxyDab?usp=sharing">google drive folder here</a>.
+      This game was created as my senior thesis project at Penn State University.
+      <br><br>
+      An Escape follows the imagination of a young child trying to escape reality. 
+      They recently moved to a new town after their father's unexpected death and are now experiencing the combined pressures of an overprotective mother and a new school. 
+      To cope, they have retreated into their imagination, where everything is depicted by a more fantastical representation of itself. 
+      <br><br>
+      In order to ensure the game could act as an escape from reality for both the main character and the player, the gameplay itself offers a fun experience focused on combat and exploration. 
+      Using the Metroidvania genre allowed me to showcase character progression through gameplay focused ways like unlockable powerups while offering the player momentary relief from the real world.
+      <br><br>
+      Below you can find the full documentation and a link to download the game itself.
 
-      This game is a prototype for a game I will be making for my senior thesis project. 
-      The gameplay will be that of an action adventure, metroidvania type game.
-      It is set in a world created from the main characters imagination. 
-      They have recently moved to a new town, and have created this fantasy interpretation to help them escape from, and transition to, their new life.
       </p>
-      <br/><br/>
-
-      <form method="get" action="pages/ThesisMidtermUpdate.pdf">
-          <button type="submit">Midterm Powerpoint</button>
-      </form>
-      <p>(Videos watchable in the google drive)</p>
-
-
       <br/><br/>
       <form method="get" action="pages/EscapeDesignDocument.pdf">
           <button type="submit">Design Document</button>
       </form>
       <br/><br/>
+      <form method="get" action="pages/EscapeDesignDocument.pdf">
+          <button type="submit">Design Document</button>
+      </form>
+      <br><br>
+
       <p>2021, Unity and Adobe Illustrator</p>
       <br>
       </div>
