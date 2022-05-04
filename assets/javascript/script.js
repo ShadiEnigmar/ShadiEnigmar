@@ -98,8 +98,8 @@ const thesisPrototype = `
           <button type="submit">Design Document</button>
       </form>
       <br/><br/>
-      <form method="get" action="pages/EscapeDesignDocument.pdf">
-          <button type="submit">Design Document</button>
+      <form method="get" action="https://shadienigmar.itch.io/an-escape">
+          <button type="submit">Download Link</button>
       </form>
       <br><br>
 
