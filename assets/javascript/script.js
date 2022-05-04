@@ -211,7 +211,7 @@ const dayAtWork = `
       <h3>Day At Work</h3>
 
 
-      <iframe frameborder="0" src="https://itch.io/embed-upload/2671643?color=333333" allowfullscreen="" width="960" height="540"><a href="https://shadienigmar.itch.io/day-at-work">Play Day at Work on itch.io</a></iframe>
+      <img src="images/dayAtWork.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Day at Work"><br />
 
         <p>Playable <a style="text-decoration: underline" href="https://shadienigmar.itch.io/day-at-work">HERE</a>.<br />
           <br />
@@ -236,7 +236,7 @@ const fieldOfFocus = `
 
                 <h3>Field of Focus</h3>
 
-                <iframe frameborder="0" src="https://itch.io/embed-upload/2885814?color=333333" allowfullscreen="" width="960" height="540"><a href="https://shadienigmar.itch.io/field-of-focus">Play Field of Focus on itch.io</a></iframe>
+                <img src="images/fieldOfFocus.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Field of Focus"><br />
 				
 			
             <p>Playable <a style="text-decoration: underline" href="https://shadienigmar.itch.io/field-of-focus">HERE</a>.<br />
@@ -461,7 +461,7 @@ const birdCall = `
 
                 <h3>Bird Call</h3>
 
-                <iframe frameborder="0" src="https://itch.io/embed-upload/2671626?color=333333" allowfullscreen="" width="1300" height="760"><a href="https://shadienigmar.itch.io/bird-call">Play Bird Call on itch.io</a></iframe>
+                <img src="images/birdCall.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Bird Call"><br />
           
           
           <p>
