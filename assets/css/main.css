@@ -184,6 +184,7 @@ body {
 	font-size: 8em;
 	font-weight: 400;
 	color: #F2F2F2;
+	padding: 0px 50px;
   }
 
   .closedPageText h2{
@@ -356,7 +357,7 @@ body {
 
 	.topnav h1{
 		font-size: 1.5em;
-		margin: 6px 10px 0px 10px;
+		margin: 7px 10px 0px 10px;
 	}
 
 	.sidenav {
@@ -373,30 +374,50 @@ body {
 	  }
 	
 	  .sidenav h2 {
-		text-decoration: none;
 		letter-spacing: 1.5px;
-		font-size: 2em;
-		font-weight: 500;
-		color: #F2F2F2;
-		display: block;
+		font-size: 1.5em;
 	  }
 	  
 	  .sidenav p {
-		text-decoration: none;
 		letter-spacing: 1.5px;
-		font-size: 1.5em;
-		font-weight: 500;
-		color: #F2F2F2;
-		display: block;
-	  }
-	
-	  .sidenav a {
-		text-decoration: none;
-		color: #F2F2F2;
-		display: block;
+		font-size: 1em;
 	  }
 
 }
+
+@media screen and (max-width: 358px) {
+
+	.topnav h1{
+		font-size: 1.5em;
+		margin: 7px 5px 0px 5px;
+		padding: 10px 10px 10px 10px;
+	}
+
+	.sidenav {
+		width: 250px;
+		padding-top: 10px;
+	
+	  }
+
+	.sidenav h1 {
+		padding: 0px 6px 6px 6px;
+		margin-top: 30px;
+		letter-spacing: 4px;
+		font-size: 3em;
+	  }
+	
+	  .sidenav h2 {
+		letter-spacing: 1.5px;
+		font-size: 1.5em;
+	  }
+	  
+	  .sidenav p {
+		letter-spacing: 1.5px;
+		font-size: 1em;
+	  }
+
+}
+
 
 .arrowBar{
 	display: flex;
