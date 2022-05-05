@@ -193,10 +193,10 @@ const conquest = `
 			
                 <p>
                 Mockup video game cover designed based on a study of major trends in the gaming industry.
-                The study discovered that competitive online multiplayer games remained popular other the longest periods of time.
+                The study discovered that competitive online multiplayer games remained popular over the longest periods of time.
                 Conquest acts as a combination of the Battle Royale and MOBA genres, the two most popular competitive game genres at the time.
-                The game took loot collecting and large player counts from Battle Royals and combined it with teamplay centered around objectives and base defense taken from MOBAs.
-                The cover also aims to imitate that of popular games. With the main, mascot character striking a pose on the front in an environment from the game. 
+                The game took loot collecting and large player counts from Battle Royale games and combined it with teamplay centered around objectives and base defense taken from MOBAs.
+                The cover also aims to imitate that of popular games, with the main mascot character striking a pose on the front in an environment from the game. 
                 <br />
                 <br />
                 2019, Blender and Adobe Illustrator</p>
@@ -392,8 +392,8 @@ const policity = `
                 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/493643945?color=ffffff&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                 <p>Created with <a style="text-decoration: underline" href="https://sites.psu.edu/priyaejurasinski/">Priya Jurasinski</a>.<br />
                 <br />
-                Policity, a mobile phone game, demonstrates the complexity of decision-making pertaining to our world. In this app, players must swipe across the screen to view different areas of a city while looking for glowing objects. The glowing objects can be clicked on, which leads to a question regarding the city. Players answer the question, which impacts the world slightly. Overtime, these slight changes add up to produce an entirely different looking world by the end of the game.<br />
-                <br />
+                Policity, a mobile phone game, demonstrates the complexity of decision-making pertaining to our world. In this app, players must swipe across the screen to view different areas of a city while looking for glowing objects. The glowing objects can be clicked on, which leads to a question regarding the city. Players answer the question, which impacts the world slightly. Over time, these slight changes add up to produce an entirely different looking world by the end of the game.<br />
+                <br /></p>
                 
                 
           
@@ -412,8 +412,9 @@ const policity = `
                 <form method="get" action="PoliCity/PoliCity-x86-release.apk">
                 <button type="submit">PoliCity-x86-release.apk</button>
                 </form><br />
-            
+                <p>
                 2020, OpenFrameworks and Android Studios
+                </p>
                 <br>
             </div>
 `;
@@ -474,7 +475,7 @@ const birdCall = `
           <br />
     
           The player in this game, Robin, is about to graduate from high school and is going around asking friends and family about what she should do afterwards.
-          The other birds all give their own thoughts and opinions about the different possibilities ahead of her. She also stops to peer out though hole in the tree through which she can see people conversing.
+          The other birds all give their own thoughts and opinions about the different possibilities ahead of her. She also stops to peer out though holes in the tree through which she can see people conversing.
           She does not understand their words or actions, but she enjoys the sounds they produce. This is parallel to how humans enjoy bird songs even though we cannot understand the messages.
     
           <br /><br />
