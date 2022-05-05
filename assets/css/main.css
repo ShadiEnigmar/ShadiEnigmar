@@ -375,12 +375,12 @@ body {
 	
 	  .sidenav h2 {
 		letter-spacing: 1.5px;
-		font-size: 1.2em;
+		font-size: 1.5em;
 	  }
 	  
 	  .sidenav p {
 		letter-spacing: 1.5px;
-		font-size: .8em;
+		font-size: 1em;
 	  }
 
 }
@@ -392,29 +392,6 @@ body {
 		margin: 7px 5px 0px 5px;
 		padding: 10px 10px 10px 10px;
 	}
-
-	.sidenav {
-		width: 250px;
-		padding-top: 10px;
-	
-	  }
-
-	.sidenav h1 {
-		padding: 0px 6px 6px 6px;
-		margin-top: 30px;
-		letter-spacing: 4.1px;
-		font-size: 3em;
-	  }
-	
-	  .sidenav h2 {
-		letter-spacing: 1.5px;
-		font-size: 1.2em;
-	  }
-	  
-	  .sidenav p {
-		letter-spacing: 1.5px;
-		font-size: .8em;
-	  }
 
 }
 
