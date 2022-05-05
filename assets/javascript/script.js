@@ -498,11 +498,15 @@ const birdCall = `
 var modal = document.querySelector(".modal");
 var modalInside = document.querySelector(".conInside");
 
+var lightbox = document.querySelector(".lightbox");
+var lightboxContent = document.querySelector(".lightboxContent");
+
 // Get the button that opens the modal
 var btn = document.querySelectorAll(".modal-button");
 
 // Get the <span> element that closes the modal
 var closeX = document.querySelector(".closeArrow");
+var closeXLight = document.querySelector('.lightX')
 var backArrow = document.querySelector(".backArrow");
 var nextArrow = document.querySelector(".nextArrow");
 
@@ -532,6 +536,11 @@ for (var i = 0; i < btn.length; i++) {
     modalInside.innerHTML = null;
   }
 
+  closeXLight.onclick = function() {
+    lightbox.style.display = "none";
+    lightboxContent.src = null;
+  }
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -539,7 +548,14 @@ window.onclick = function(event) {
     modal.style.display = "none";
     modalInside.innerHTML = null;
   }
+  if (event.target.classList.contains('lightbox') || event.target.classList.contains('lightboxContent')) {
+    lightbox.style.display = "none";
+    lightboxContent.src = null;
+  }
+
+
 }
+
 
 backArrow.onclick = function(){
 
@@ -592,6 +608,13 @@ function openmenu() {
     document.querySelector(".sidenav").style.display = "none";
     document.querySelector(".overlay").style.display = "none";
   }
+
+  // Modal Image Gallery
+function onClick(element) {
+  lightbox.style.display = "block";
+  lightboxContent.src = element.src;
+  modal.style.display = "block";
+}
 
 
 
