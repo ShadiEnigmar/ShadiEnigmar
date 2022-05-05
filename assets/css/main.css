@@ -745,6 +745,9 @@ body {
 	.closedPageText h2{
 		font-size: 1.5em;
 	}
+	.container2 p {
+		font-size: 1em;
+	}
 }
 
 @media screen and (max-width: 540px) {
@@ -781,6 +784,15 @@ body {
 		.container2 h2 {
 		font-size: 2em;
 	}
+
+	.container2 h3 {
+		font-size: 2em;
+
+	}
+
+
+
+
 }
 
 @media screen and (max-width: 358px) {
@@ -790,6 +802,26 @@ body {
 		margin: 7px 5px 0px 5px;
 		padding: 10px 10px 10px 10px;
 	}
+
+	.downArrow{
+		height: 25px; 
+	}
+	.backArrow{
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+	.closeArrow{
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+	.nextArrow{
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 40px;
+	}
+
 }
 
 
@@ -799,5 +831,8 @@ body {
 		font-size: 1.3em;
 		margin: 10px 5px 0px 5px;
 		padding: 10px 10px 10px 10px;
+	}
+	.container2 h2 {
+		font-size: 1.5em;
 	}
 }
