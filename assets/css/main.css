@@ -267,133 +267,7 @@ body {
     height: 0;
 }
 
-@media screen and (max-width: 1440px) {
 
-	.sidenav {
-		width: 300px;
-	}
-	.main {
-		margin-left: 300px; /* Same as the width of the sidenav */
-	}
-	.sidenav h1 {
-	padding: 0px 6px 6px 6px;
-	}
-	.header {
-	padding: 6px 6px 6px 50px;
-	}
-	.subheader {
-	padding: 5px 6px 5px 70px;
-	}
-	.modal-content {
-		margin-left: 400px;
-		width: -webkit-calc(100% - 400px);
-		width:    -moz-calc(100% - 400px);
-		width:         calc(100% - 400px);
-	}
-
-	.closedPageText h1{
-		font-size: 6.5em;
-
-	}
-	.closedPageText h2{
-		font-size: 2.5em;
-	}
-	.downArrow{
-		height: 35px; 
-	}
-	.backArrow{
-		height: 35px; 
-	}
-	.closeArrow{
-		height: 35px; 
-	}
-	.nextArrow{
-		height: 35px; 
-	}
-
-  }
-
-  @media screen and (max-width: 980px) {
-
-	.modal-content {
-		width: 100%;
-		margin-left: 0px;
-		
-	}
-
-	.closedPageText h1{
-		font-size: 4em;
-
-	}
-	.closedPageText h2{
-		font-size: 1.5em;
-	}
-	.downArrow{
-		height: 25px; 
-	}
-	.backArrow{
-		height: 25px; 
-	}
-	.closeArrow{
-		height: 25px; 
-	}
-	.nextArrow{
-		height: 25px; 
-	}
-
-}
-@media screen and (max-width: 736px) {
-
-	.closedPageText h1{
-		font-size: 3em;
-
-	}
-	.closedPageText h2{
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (max-width: 540px) {
-
-	.topnav h1{
-		font-size: 1.5em;
-		margin: 7px 10px 0px 10px;
-	}
-
-	.sidenav {
-		width: 250px;
-		padding-top: 10px;
-	
-	  }
-
-	.sidenav h1 {
-		padding: 0px 6px 6px 6px;
-		margin-top: 30px;
-		letter-spacing: 4.1px;
-		font-size: 3em;
-	  }
-	
-	  .sidenav h2 {
-		letter-spacing: 1.5px;
-		font-size: 1.5em;
-	  }
-	  
-	  .sidenav p {
-		letter-spacing: 1.5px;
-		font-size: 1em;
-	  }
-
-}
-
-@media screen and (max-width: 358px) {
-
-	.topnav h1{
-		font-size: 1.5em;
-		margin: 7px 5px 0px 5px;
-		padding: 10px 10px 10px 10px;
-	}
-
-}
 
 
 .arrowBar{
@@ -545,6 +419,7 @@ body {
 			color: #F2F2F2;
 			display: block;
 			text-align: center;
+			padding: 0px 20px;
 		}
 
 		.container2 h3 {
@@ -785,3 +660,144 @@ body {
 						margin: 0 auto;
 						width: auto;
 					}
+
+@media screen and (max-width: 1440px) {
+
+	.sidenav {
+		width: 300px;
+	}
+	.main {
+		margin-left: 300px; /* Same as the width of the sidenav */
+	}
+	.sidenav h1 {
+	padding: 0px 6px 6px 6px;
+	}
+	.header {
+	padding: 6px 6px 6px 50px;
+	}
+	.subheader {
+	padding: 5px 6px 5px 70px;
+	}
+	.modal-content {
+		margin-left: 400px;
+		width: -webkit-calc(100% - 400px);
+		width:    -moz-calc(100% - 400px);
+		width:         calc(100% - 400px);
+	}
+
+	.closedPageText h1{
+		font-size: 6.5em;
+
+	}
+	.closedPageText h2{
+		font-size: 2.5em;
+	}
+	.downArrow{
+		height: 35px; 
+	}
+	.backArrow{
+		height: 35px; 
+	}
+	.closeArrow{
+		height: 35px; 
+	}
+	.nextArrow{
+		height: 35px; 
+	}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+	.modal-content {
+		width: 100%;
+		margin-left: 0px;
+		
+	}
+
+	.closedPageText h1{
+		font-size: 4em;
+
+	}
+	.closedPageText h2{
+		font-size: 1.5em;
+	}
+	.downArrow{
+		height: 25px; 
+	}
+	.backArrow{
+		height: 25px; 
+	}
+	.closeArrow{
+		height: 25px; 
+	}
+	.nextArrow{
+		height: 25px; 
+	}
+
+}
+@media screen and (max-width: 736px) {
+
+	.closedPageText h1{
+		font-size: 3em;
+
+	}
+	.closedPageText h2{
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 540px) {
+
+	.topnav h1{
+		font-size: 1.5em;
+		margin: 7px 10px 0px 10px;
+		letter-spacing: 3.5px;
+	}
+
+	.sidenav {
+		width: 250px;
+		padding-top: 10px;
+	
+		}
+
+	.sidenav h1 {
+		padding: 0px 6px 6px 6px;
+		margin-top: 30px;
+		letter-spacing: 4.1px;
+		font-size: 3em;
+		}
+	
+		.sidenav h2 {
+		letter-spacing: 1.5px;
+		font-size: 1.5em;
+		}
+		
+		.sidenav p {
+		letter-spacing: 1.5px;
+		font-size: 1em;
+		}
+
+		.container2 h2 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 358px) {
+
+	.topnav h1{
+		font-size: 1.5em;
+		margin: 7px 5px 0px 5px;
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+
+@media screen and (max-width: 292px) {
+
+	.topnav h1{
+		font-size: 1.3em;
+		margin: 10px 5px 0px 5px;
+		padding: 10px 10px 10px 10px;
+	}
+}
