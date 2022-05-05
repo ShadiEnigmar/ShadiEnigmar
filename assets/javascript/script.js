@@ -31,7 +31,7 @@ const journeyWest = `
                 <br />
                 The Journey West aims to compare the trip along the Oregon Trail with the harsh reality of everyday life. 
                 It does this by telling the tale of a lone bull who&rsquo;s only job was to pull a wagon westward. 
-                He travels through many different harsh environments till finally reaching the destination. 
+                He travels through many different harsh environments until finally reaching the destination. 
                 At the end, when the bull finally believes he is given a chance to rest and enjoy his new, &ldquo;better&rdquo; life on the west coast, the bull is killed. 
                 He has now served his purpose and is now only useful as food.  <br>
                 This small look into the bull&rsquo;s life aims to parallel a depressed take on life itself. 
@@ -327,7 +327,7 @@ const humanModel = `
                 Character designed, modeled, textured, rigged, and animated over the course of a semester.<br />
                 She is supposed to represent a city girl who has grown tired of all the pollution that modern life brings.
                 In response to this, she has decided to leave on a journey into the forest.
-                However, she has never been before and is incredibly underprepared.
+                However, she has never been there before and is incredibly underprepared.
                 <br />
                 <br />
                 2020, Blender and Substance Painter</p>
