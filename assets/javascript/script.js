@@ -475,7 +475,7 @@ const birdCall = `
           <br />
     
           The player in this game, Robin, is about to graduate from high school and is going around asking friends and family about what she should do afterwards.
-          The other birds all give their own thoughts and opinions about the different possibilities ahead of her. She also stops to peer out though holes in the tree through which she can see people conversing.
+          The other birds all give their own thoughts and opinions about the different possibilities ahead of her. She also stops to peer out through holes in the tree through which she can see people conversing.
           She does not understand their words or actions, but she enjoys the sounds they produce. This is parallel to how humans enjoy bird songs even though we cannot understand the messages.
     
           <br /><br />
