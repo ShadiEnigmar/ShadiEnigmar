@@ -44,6 +44,27 @@ const journeyWest = `
             </div>
 `;
 
+const craneOrigami = `
+            <div class="content justify" >
+                <br><br>
+                <h3>The Fledgling Origami</h3>
+
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/703951480?color=ffffff&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <br>
+                <p>The Fledgling Origami is an animation that follows an origami crane's journey into existence. 
+                The crane hatches from an egg, is fed by their mother, and finally leaves the nest to venture out into the unknown. 
+                In creating this work, I wanted to explore the creation of origami inside of a 3D space. 
+                All the assets aim to mimic that of a handcrafted, paper diorama. 
+                To achieve this, I first created all the models out of paper. 
+                This allowed me to understand where and how each of the creases would lay and which side of the paper would be visible from every angle. 
+                While not all the models are able to fully unfold, as I was required to use less faces to avoid clipping in the tighter areas, they still appear anatomically correct even from a close-up perspective. 
+                This is emphasized by the use of double-sided textures which allow the viewer to follow the folds of the animation.<br />
+                <br />
+                2019, Blender</p>
+                <br />
+            </div>
+`;
+
 const landscapeIllustrations = `
       <div class="content justify" >
       <br /><br />
@@ -325,7 +346,7 @@ const humanModel = `
 
                 <p>
                 Character designed, modeled, textured, rigged, and animated over the course of a semester.<br />
-                She is supposed to represent a city girl who has grown tired of all the pollution that modern life brings.
+                She represents a city girl who has grown tired of all the pollution that modern life brings.
                 In response to this, she has decided to leave on a journey into the forest.
                 However, she has never been there before and is incredibly underprepared.
                 <br />
@@ -354,6 +375,30 @@ const museumOfNature = `
                 <br>
             </div>
 `;
+
+
+const foreignNations = `
+      <div class="content justify" >
+                <br /><br />
+
+                <h3>Balancing Foreign Nations</h3>
+			
+                <img src="images/FinishedComicBookLayout.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Museum of Nature 1"><br />
+                <p>
+          
+                Balancing Foreign Nations is a series of images that depict the brutal confrontation between grey and red squirrels. 
+                The eastern grey squirrel is considered an invasive species in much of Europe. There, it is out competing their smaller cousins, the red squirrel, for land and resources. 
+                This piece is meant to compare the nature of this relationship to that of past, human colonization. 
+                In the piece, the grey squirrels arrived on a boat and are currently killing and pillaging the red squirrels. 
+                This is akin to how humans once arrived on foreign continents and took land and resources away from the native populations. 
+                Now, most will agree that these conquests were detrimental. Balancing Foreign Nations shifts these emotions onto that of the squirrels' relationships in Europe. 
+                It draws attention to the harmful nature of some invasive animals, in this case grey squirrels, and their impact on the native populous. <br />
+                <br />
+                2022, Blender</p>
+                <br>
+            </div>
+`;
+
 
 const plasticWaste = `
       <div class="content justify" >
