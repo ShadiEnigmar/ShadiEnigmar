@@ -176,7 +176,7 @@ const cagedBird = `
 
                 <h3>Caged Bird Never Learns</h3>
                 
-                <img src="images/cagedBird.jpg" class="image2 featured" style="display:inline;left:0%;width:45%" onclick="onClick(this)" alt="Caged Bird Never Learns">
+                <img src="images/cagedBird.jpg" class="image2 featured" style="display:inline;left:0%;width:45%;padding-right:7%" onclick="onClick(this)" alt="Caged Bird Never Learns">
                 
                 <video width="45%" autoplay loop><source src="images/cagedBirdAnimation.webm" type="video/webm">Caged Bird Never Learns Animation.</video><br />
                 <p>
@@ -286,9 +286,9 @@ const fontPosters = `
 
                 <h3>Font Posters</h3>
 			
-                <img src="images/fertigoPoster.png" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="Fertigo Poster"><br />
-                <img src="images/akronimTypefacePoster2.jpg" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="Akronim Typeface Poster"><br />
-                <img src="images/akronimTypefacePoster.png" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="Akronim Typeface Poster 2"><br />
+                <img src="images/fertigoPoster.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Fertigo Poster"><br />
+                <img src="images/akronimTypefacePoster2.jpg" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Akronim Typeface Poster"><br />
+                <img src="images/akronimTypefacePoster.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Akronim Typeface Poster 2"><br />
                 <p>
                 Series of font posters. Posters get more abstract as they go.<br />
                 <br />
@@ -406,9 +406,9 @@ const plasticWaste = `
 
                 <h3>Series On Plastic Waste</h3>
 			
-                <img src="images/ExcessWasteBoxes.jpg" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="INFLUX"><br />
-                <img src="images/excessWasteDolphin.png" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="Washed Up"><br />
-                <img src="images/excessWasteBottles.jpg" class="image2 featured" style="position:relative;left:0%;width:90%" onclick="onClick(this)" alt="Less than 10% of plastic is recycled"><br />
+                <img src="images/ExcessWasteBoxes.jpg" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="INFLUX"><br />
+                <img src="images/excessWasteDolphin.png" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Washed Up"><br />
+                <img src="images/excessWasteBottles.jpg" class="image2 featured" style="position:relative;left:0%;width:100%" onclick="onClick(this)" alt="Less than 10% of plastic is recycled"><br />
                 <p>
                 The pieces in this series use different strategies to convey the negative aspects of plastic waste.
                 <br />
