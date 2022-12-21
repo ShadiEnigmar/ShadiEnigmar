@@ -60,7 +60,7 @@ const craneOrigami = `
                 While not all the models are able to fully unfold, as I was required to use less faces to avoid clipping in the tighter areas, they still appear anatomically correct even from a close-up perspective. 
                 This is emphasized by the use of double-sided textures which allow the viewer to follow the folds of the animation.<br />
                 <br />
-                2019, Blender</p>
+                2022, Blender</p>
                 <br />
             </div>
 `;
@@ -124,7 +124,7 @@ const thesisPrototype = `
 
       <br><br>
 
-      <p>2021, Unity and Adobe Illustrator</p>
+      <p>2021 - 2022, Unity and Adobe Illustrator</p>
       <br>
       </div>
 `;
