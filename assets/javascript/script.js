@@ -535,7 +535,8 @@ const birdCall = `
 
 
 
-
+var body = document.body;
+var main = document.querySelector(".main");
 
 // Get the modal
 //var modals = document.querySelectorAll(".modal");
@@ -571,6 +572,12 @@ for (var i = 0; i < btn.length; i++) {
      modalInside.innerHTML = eval(e.target.getAttribute("href"));
      modal.style.display = "block";
 
+     modal.setAttribute('aria-hidden', false);
+     modalInside.setAttribute('aria-hidden', false);
+
+     body.classList.toggle('noscroll', true);
+     main.classList.toggle('noscroll', true);
+
   }
  }
 
@@ -578,12 +585,19 @@ for (var i = 0; i < btn.length; i++) {
 
   closeX.onclick = function() {
     modal.style.display = "none";
+    modal.setAttribute('aria-hidden', true);
     modalInside.innerHTML = null;
+    modalInside.setAttribute('aria-hidden', true);
+
+    body.classList.toggle('noscroll', false);
+    main.classList.toggle('noscroll', false);
   }
 
   closeXLight.onclick = function() {
     lightbox.style.display = "none";
     lightboxContent.src = null;
+    lightbox.setAttribute('aria-hidden', true);
+    lightboxContent.setAttribute('aria-hidden', true);
   }
 
 
@@ -591,11 +605,18 @@ for (var i = 0; i < btn.length; i++) {
 window.onclick = function(event) {
   if (event.target.classList.contains('modal')) {
     modal.style.display = "none";
+    modal.setAttribute('aria-hidden', true);
     modalInside.innerHTML = null;
+    modalInside.setAttribute('aria-hidden', true);
+
+    body.classList.toggle('noscroll', false);
+    main.classList.toggle('noscroll', false);
   }
   if (event.target.classList.contains('lightbox') || event.target.classList.contains('lightboxContent')) {
     lightbox.style.display = "none";
     lightboxContent.src = null;
+    lightbox.setAttribute('aria-hidden', true);
+    lightboxContent.setAttribute('aria-hidden', true);
   }
 
 
